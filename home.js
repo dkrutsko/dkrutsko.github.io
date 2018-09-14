@@ -374,7 +374,7 @@ $(function()
 		(function()
 		{
 			// Create an HTML5 video tag for looping header video
-			var video = $('<video src="images/header.mp4" loop>');
+			var video = $('<video src="images/header.mp4" loop muted>');
 
 			// Show and play the video when loaded
 			video.on ("loadedmetadata", function() {
